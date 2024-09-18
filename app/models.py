@@ -3,7 +3,7 @@ from sqlalchemy.orm import relationship, Mapped, mapped_column
 from .database import Base  # Asegúrate de importar correctamente 'Base'
 from datetime import datetime
 from typing import Optional
-import app.models  # Cambia este import a la ubicación de tus modelos
+import app.models 
 
 
 # Modelo para la tabla 'productos'
